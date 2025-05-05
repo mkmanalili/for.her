@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+        background-color: antiquewhite; 
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family:"Crimson Pro";
+        font-size:30px;
+        width: 50%;
+        margin:auto;
+        margin-top:5%;
+        border-color:#84C1B2 ;
+     border-style: solid;
+    border-width: 10px;
+        z-index:1;
+}
+
+h1{
+font-family:"Crimson Pro";
+font-size: 48px;
+margin-left: 60%;
+margin-top:10%;
+
+}
+
+main{
+    margin:auto;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.arrow1{
+    display:flex;
+    position:absolute;
+    top:80%;
+    right: -2%;
+    z-index:15;
+}

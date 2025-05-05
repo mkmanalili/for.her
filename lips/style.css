@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Pixelify+Sans:wght@400..700&display=swap');
+body{
+
+    background-color:#FFF7E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #DADDA6;
+    padding:2%;
+    margin-top: 3%; 
+}
+
+.arrow1{
+    display:flex;
+    position:absolute;
+    top:80%;
+    right: -2%
+}
