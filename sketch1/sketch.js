@@ -10,6 +10,7 @@ function setup() {
   cnv.position(0, 0);
   cnv.style('z-index', '3');
   cnv.style('position', 'absolute');
+  imageMode(CENTER);
  
 }
 
@@ -20,7 +21,6 @@ function draw() {
 function mousePressed(){
   
   image(img, mouseX, mouseY);
-  imageMode(CENTER);
 }
 
 function windowResized(){
