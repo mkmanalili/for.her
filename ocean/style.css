@@ -3,16 +3,19 @@
 body{
         background-color: antiquewhite; 
         display: flex;
+        margin:auto;
         flex-direction: column;
         color: white;
         font-family:"Crimson Pro";
         font-size:30px;
-        width: 50%;
+        width: 820px;
         margin:auto;
         margin-top:5%;
+        padding-top:5px;
         border-color:#84C1B2 ;
-     border-style: solid;
-    border-width: 10px;
+        border-style: solid;
+        border-width: 10px;
+        flex-wrap:nowrap;
         z-index:1;
 }
 
